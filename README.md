@@ -2,7 +2,7 @@
 Python executable for scheduling or aborting a shutdown for your device. I made this Timed Shutdown Helper because recently I've been downloading games and sometimes it took all night long, so scheduling an automatic shutdown seems appropriate to reduce the energy consumption and for safety measures.
 
 > [!NOTE]
-> Leaving your computer ON for long periods, while away from it, *is a breach for external hackers.* Trust me, someone got into my laptop because of this in the pandemic, but luckily I was there to prevent potential damage.
+> Leaving your computer ON for long periods of time, while away from it, *is a breach for external hackers.* Trust me, someone got into my laptop because of this in the pandemic, but luckily I was there to prevent potential damage.
 
 ## How to run
 Just execute the `run.py` file and follow the instructions.
