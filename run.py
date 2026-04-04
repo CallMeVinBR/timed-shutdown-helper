@@ -28,9 +28,10 @@ try:
             
          if confirmed == "y":
             os.system('shutdown /s /f /t 0')
-         
-      countdown = calculateSeconds(hours, minutes, seconds)
-      os.system(f'shutdown /s /t {countdown}')
+            
+      else:   
+         countdown = calculateSeconds(hours, minutes, seconds)
+         os.system(f'shutdown /s /t {countdown}')
       
 except:
    print("\nPlease inform the time in Integer numbers, not Decimals.")
