@@ -34,5 +34,5 @@ try:
          os.system(f'shutdown /s /t {countdown}')
       
 except:
-   print("\nPlease inform the time in Integer numbers, not Decimals.")
+   print("\nPlease inform the time in Integer numbers.")
    input("Press ENTER to end the execution.")
