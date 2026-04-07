@@ -1,9 +1,9 @@
 import os
 
-def calculateSeconds(hours=0, minutes=0, seconds=0) -> int:
-   totalSeconds = (hours * (60 ** 2)) + (minutes * 60) + seconds
+def calculate_seconds(hours=0, minutes=0, seconds=0) -> int:
+   total_seconds = (hours * (60 ** 2)) + (minutes * 60) + seconds
    
-   return totalSeconds
+   return total_seconds
 
 print("TIMED SHUTDOWN HELPER".center(50, "="))
 print(">> Press CTRL + C to close and cancel the program <<\n\n")
@@ -30,7 +30,7 @@ try:
             os.system('shutdown /s /f /t 0')
             
       else:   
-         countdown = calculateSeconds(hours, minutes, seconds)
+         countdown = calculate_seconds(hours, minutes, seconds)
          os.system(f'shutdown /s /t {countdown}')
       
 except:
