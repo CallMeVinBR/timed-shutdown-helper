@@ -13,4 +13,4 @@ Just execute the `abort.py` file. If you have an active shedule for a shutdown, 
 ### How does the application work?
 The application asks the user for the inputs: `hours`, `minutes` and `seconds`.
 
-After all inputs have been successfully sent, it will run a function to calculate the given time in seconds (called `calculateSeconds`), which is what your OS needs to know.
+After all inputs have been successfully sent, it will run a function to calculate the given time in seconds (called `calculate_seconds()`), which is what your OS needs to know.
