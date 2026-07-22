@@ -32,10 +32,13 @@ try:
       else:   
          countdown = calculate_seconds(hours, minutes, seconds)
          os.system(f'shutdown /s /t {countdown}')
+         print("Shutdown scheduled successfully!")
       
 except KeyboardInterrupt:
    print("\nProgram cancelled.")
 
 except:
    print("\nPlease inform the time in Integer numbers.")
+   
+finally:
    input("Press ENTER to end the execution.")
